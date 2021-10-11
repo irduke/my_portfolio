@@ -16,3 +16,9 @@ def project_detail(request, pk):
         'project':project
     }
     return render(request, 'portfolio/project_detail.html', context)
+
+def contact_information(request):
+    return render(request, 'portfolio/contactinfo.html')
+
+def about_me(request):
+    return render(request, 'portfolio/aboutme.html')
