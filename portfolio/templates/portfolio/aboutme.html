@@ -11,5 +11,49 @@
 
 
 {% block page_content %}
-<h1>HELLO WORLD</h1>
+<div class="container">
+    <div class="row">
+        <h1 class="text-center">About Me</h1><hr>
+    </div>
+    <div class="row">
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text">
+                        I am currently a 3rd year Computer Engineering student at the University of Virginia with experience using the following languages and technologies:
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <dl>
+                                <dt>Languages</dt>
+                                <dd>- Python</dd>
+                                <dd>- Java</dd>
+                                <dd>- C++</dd>
+                                <dd>- Embedded C</dd>
+                                <dd>- HTML/CSS</dd>
+                            </dl>
+                        </div>
+                        <div class="col-md-6">
+                            <dl>
+                                <dt>Technologies</dt>
+                                <dd>- Django</dd>
+                                <dd>- Heroku</dd>
+                                <dd>- AWS</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5>Work Experience</h5>
+                        <p>-Bluestone Analytics <em>(Acquired by CACI in August 2021)</em></p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="/static/portfolio/images/me.png" class="img-fluid" alt="me">
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
 {% endblock %}
